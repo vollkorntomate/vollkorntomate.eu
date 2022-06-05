@@ -1,11 +1,11 @@
 baseURL: https://vollkorntomate.de/
 title: 'vollkorntomate'
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 theme: coder
 
 enableGitInfo: true
 
-defaultContentLanguageInSubdir: true
 languages:
   en:
     info: 'Student, Software Developer & more'
@@ -46,6 +46,9 @@ params:
 
   colorScheme: auto
   hidecolorschemetoggle: true
+
+  favicon_16: 'images/favicon-16x16.png'
+  favicon_32: 'images/favicon-32x32.png'
 
   social:
     - name: GitHub
