@@ -8,10 +8,11 @@ enableGitInfo: true
 
 languages:
   en:
-    info: 'Student, Software Developer & more'
     languageName: EN
     weight: 1
     contentDir: "content/en"
+    info: 'Student & Software Developer'
+    description: 'vollkorntomate - Student & Software Developer'
     menu:
       main:
         # - name: 'Blog'
@@ -23,10 +24,11 @@ languages:
           identifier: 'about'
           url: '/about/'
   de:
-    info: 'Student, Softwareentwickler & mehr'
     languageName: DE
     weight: 2
     contentDir: "content/de"
+    info: 'Student & Softwareentwickler'
+    description: 'vollkorntomate - Student & Softwareentwickler'
     menu:
       main:
         # - name: 'Blog'
