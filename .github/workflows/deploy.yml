@@ -33,4 +33,4 @@ jobs:
         run: ssh-keyscan -H ${{ secrets.VKTDE_SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -avz ./public/ ${{ secrets.VKTDE_SSH_USER }}@${{ secrets.VKTDE_SSH_HOST }}:/home/vollkorntomate/vollkorntomate_de/
+        run: rsync -avz --delete ./public/ ${{ secrets.VKTDE_SSH_USER }}@${{ secrets.VKTDE_SSH_HOST }}:/home/vollkorntomate/vollkorntomate_de/
