@@ -43,6 +43,7 @@ languages:
 params:
   author: 'vollkorntomate'
   avatarurl: 'images/vollkorntomate.jpg'
+  images: ['images/vollkorntomate.jpg']
 
   colorScheme: auto
   hidecolorschemetoggle: true
