@@ -53,6 +53,8 @@ params:
   favicon_16: 'images/favicon-16x16.png'
   favicon_32: 'images/favicon-32x32.png'
 
+  commit: 'https://github.com/vollkorntomate/vollkorntomate.de/tree'
+
   social:
     - name: GitHub
       icon: fa fa-github fa-2x
