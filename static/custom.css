@@ -1,0 +1,6 @@
+body.colorscheme-light .secondary {
+    color: #999999;
+}
+body.colorscheme-dark .secondary {
+    color: #888888;
+}

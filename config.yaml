@@ -23,6 +23,10 @@ languages:
           weight: -100
           identifier: 'about'
           url: '/about/'
+        - name: 'Projects'
+          weight: -90
+          identifier: 'projects'
+          url: '/projects/'
   de:
     languageName: DE
     weight: 2
@@ -39,6 +43,10 @@ languages:
           weight: -100
           identifier: 'about'
           url: '/about/'
+        - name: 'Projekte'
+          weight: -90
+          identifier: 'projects'
+          url: '/projects/'
 
 
 
