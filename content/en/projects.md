@@ -20,8 +20,12 @@ Practical cource about iOS at TUM \
 Science Hack (Hackathon) by TUM Junge Akademie \
 {{< secondary >}}Python | Django{{< /secondary >}}
 
-- **flutter_photon** ([GitHub](https://github.com/vollkorntomate/flutter-photon/)) \
+- **flutter_photon** ([GitHub](https://github.com/vollkorntomate/flutter-photon/) • [pub.dev](https://pub.dev/packages/flutter_photon)) \
 A wrapper of the Komoot Photon Geocoding API for Dart/Flutter
+
+- **18 Months in 2019 to 2021** \
+Intern and working student at a software engineering company \
+{{< secondary >}}C# | Microsoft Azure{{< /secondary >}}
 
 ---
 
