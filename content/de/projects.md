@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projekte"
 date: 2022-06-06T11:48:55+02:00
 draft: false
 description: "Übersicht über Projekte, an denen ich arbeite bzw. gearbeitet habe"
