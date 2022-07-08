@@ -7,6 +7,10 @@
       {{ now.Year }}
       {{ with .Site.Params.author }} {{ . }} {{ end }}
       •
+      {{ if (i18n "impressum") }}
+        <a href='{{ "impressum" | relLangURL }}'>{{ i18n "impressum" }}</a>
+        &amp;
+      {{ end }}
       <a href='{{ "privacy" | relLangURL }}'>{{ i18n "privacy" }}</a>
       •
       {{ if (and .Site.Params.license) }}
