@@ -16,7 +16,7 @@ Ich sehe das als Eingriff in meine Privatsphäre an, denn ich möchte nicht, das
 
 Sollten Sie ein berechtigtes Interesse daran haben, Auskunft über meinen Namen oder meine Postanschrift zu erhalten, dann zögern Sie bitte nicht, mir eine E-Mail zu schreiben oder mich auf einem der sämtlichen anderen Wege zu kontaktieren (Links dazu auf der [Startseite](https://vollkorntomate.de/de/)).
 
-E-Mail: vollkorntomate+impressum@gmail.com
+E-Mail: impressum@vollkorntomate.de
 
 Grundsätzlich befürworte ich eine Impressumspflicht für Gewerbetreibende, also natürliche oder juristische Personen, die mit oder durch ihre Webseite Geld verdienen. Die Grenzen der "Gewerbsmäßigkeit" sind rechtlich allerdings fließend, denn die Impressumspflicht gilt bereits, wenn Inhalte "in der Regel gegen Entgelt" angeboten werden ([§ 5 Abs. 1 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)). Ich verdiene mit dieser Webseite kein Geld – und möchte das auch nicht.
 
