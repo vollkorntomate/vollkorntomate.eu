@@ -14,10 +14,10 @@ languages:
     description: 'vollkorntomate - Student & Software Developer'
     menu:
       main:
-        - name: 'Blog'
-          weight: -110
-          identifier: 'blog'
-          url: '/blog/'
+        # - name: 'Blog'
+        #   weight: -110
+        #   identifier: 'blog'
+        #   url: '/blog/'
         - name: 'About me'
           weight: -100
           identifier: 'about'
@@ -33,10 +33,10 @@ languages:
     description: 'vollkorntomate - Student & Softwareentwickler'
     menu:
       main:
-        - name: 'Blog'
-          weight: -110
-          identifier: 'blog'
-          url: '/blog/'
+        # - name: 'Blog'
+        #   weight: -110
+        #   identifier: 'blog'
+        #   url: '/blog/'
         - name: 'Über mich'
           weight: -100
           identifier: 'about'
