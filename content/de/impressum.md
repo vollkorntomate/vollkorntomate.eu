@@ -14,12 +14,14 @@ Genauer gesagt schreiben diese beiden Paragraphen vor, dass ich meinen vollen Na
 
 Ich sehe das als Eingriff in meine Privatsphäre an, denn ich möchte nicht, dass alle Welt weiß, wo ich wohne. Aus diesem Grund lehne ich es ab, diese Daten hier zu veröffentlichen.
 
-Sollten Sie ein berechtigtes Interesse daran haben, Auskunft über meinen Namen oder meine Postanschrift zu erhalten, dann zögern Sie bitte nicht, mir eine E-Mail zu schreiben oder mich auf einem der sämtlichen anderen Wege zu kontaktieren (Links dazu auf der [Startseite](https://vollkorntomate.de/de/)).
+Sollten Sie ein berechtigtes Interesse daran haben, Auskunft über meinen Namen oder meine Postanschrift zu erhalten, dann zögern Sie bitte nicht, mir eine E-Mail zu schreiben oder mich auf einem der sämtlichen anderen Wege zu kontaktieren (Links dazu auf der [Startseite](/de)).
 
-E-Mail: impressum@vollkorntomate.de
+E-Mail: impressum@vollkorntomate.de\
+PGP Fingerabdruck: `8003 4009 F358 2127 17F1 9AB3 8738 4A83 6B85 D103`[^pgpdownload]
 
 Grundsätzlich befürworte ich eine Impressumspflicht für Gewerbetreibende, also natürliche oder juristische Personen, die mit oder durch ihre Webseite Geld verdienen. Die Grenzen der "Gewerbsmäßigkeit" sind rechtlich allerdings fließend, denn die Impressumspflicht gilt bereits, wenn Inhalte "in der Regel gegen Entgelt" angeboten werden ([§ 5 Abs. 1 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)). Ich verdiene mit dieser Webseite kein Geld – und möchte das auch nicht.
 
+[^pgpdownload]: Public Key herunterladen von [diesem Server](/files/pubkey.asc) oder [keys.opengpg.org](https://keys.openpgp.org/vks/v1/by-fingerprint/80034009F358212717F19AB387384A836B85D103)
 
 ---
 
