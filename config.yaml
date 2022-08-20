@@ -10,7 +10,6 @@ languages:
   en:
     languageName: EN
     weight: 1
-    contentDir: "content/en"
     info: 'Student & Software Developer'
     description: 'vollkorntomate - Student & Software Developer'
     menu:
@@ -30,7 +29,6 @@ languages:
   de:
     languageName: DE
     weight: 2
-    contentDir: "content/de"
     info: 'Student & Softwareentwickler'
     description: 'vollkorntomate - Student & Softwareentwickler'
     menu:
