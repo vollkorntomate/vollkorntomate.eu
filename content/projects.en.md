@@ -1,11 +1,27 @@
 ---
 title: "Projects"
-date: 2022-06-06T11:48:26+02:00
+date: 2022-10-10
 draft: false
 description: "An overview of the projects I am/was working on"
 ---
 
 ---
+
+- **photon-geocoding** ([Codeberg](https://codeberg.org/vollkorntomate/photon-geocoding-rs) / [GitHub](https://github.com/vollkorntomate/photon-geocoding-rs) • [crates.io](https://crates.io/crates/photon-geocoding)) \
+An API client for Komoot's Photon API written in and for Rust. \
+{{< secondary >}}Rust{{< /secondary >}}
+
+- **flutter_photon** ([GitHub](https://github.com/vollkorntomate/flutter-photon/) • [pub.dev](https://pub.dev/packages/flutter_photon)) \
+An API client for Komoot's Photon API written in and for Dart/Flutter. \
+{{< secondary >}}Dart{{< /secondary >}}
+
+---
+
+# Professional & Education
+
+- **July 2022 – September 2022** \
+Internship as a Penetration Tester \
+{{< secondary >}}Python | C | Automotive | CAN | Code Audit{{< /secondary >}}
 
 - **November 2021 – April 2022** \
 Bachelor's Thesis in cooperation with the [Fraunhofer AISEC](https://www.aisec.fraunhofer.de/en.html) \
@@ -19,9 +35,6 @@ Practical cource about iOS at TUM \
 - **April 2021** \
 Science Hack (Hackathon) by TUM Junge Akademie \
 {{< secondary >}}Python | Django{{< /secondary >}}
-
-- **flutter_photon** ([GitHub](https://github.com/vollkorntomate/flutter-photon/) • [pub.dev](https://pub.dev/packages/flutter_photon)) \
-A wrapper of the Komoot Photon Geocoding API for Dart/Flutter
 
 - **18 Months in 2019 to 2021** \
 Intern and working student at a software engineering company \
