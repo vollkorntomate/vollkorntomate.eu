@@ -85,7 +85,7 @@ params:
     - name: Mastodon
       icon: fa fa-mastodon fa-2x
       weight: 6
-      url: 'https://mastodon.social/@vollkorntomate'
+      url: 'https://fosstodon.org/@vollkorntomate'
     - name: Matrix
       icon: fa fa-matrix-org fa-2x
       weight: 7
