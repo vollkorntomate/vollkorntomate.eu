@@ -9,7 +9,7 @@ description: 'Hi! I am Thomas. – vollkorntomate'
 
 ## Hi! I am Thomas. 👋
 
-I am 22 years old and live in Munich and Darmstadt, Germany. I have a bachelor's degree in informatics from the Technical University of Munich. Currently, I am doing a master's degree in IT security at the Technical University of Darmstadt. Throughout the years, I came to gain some experience in software development, mostly in Java, Swift and C#.
+I am 22 years old and live in Munich and Darmstadt, Germany. I did a bachelor's degree in informatics at the Technical University of Munich and am currently doing a master's degree in IT security at the Technical University of Darmstadt. Through university, internships and smaller side-projects I came to gain some experience in software development, mostly in Java, Swift, C# and Python. Recently, I fell in love with Rust and try to use it more often now. That's why most of my more recent projects have a strong focus on Rust. But still, I love making apps for iOS as well as doing security research and CTFs.
 
 I love open-source software, open data and the community behind it. I am a defender of privacy and digital rights for an open internet. [Make public data available, protect private data.](https://www.ccc.de/en/hackerethics)
 
