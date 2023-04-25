@@ -14,8 +14,8 @@ I see this as an intrusion into my personal data protection rights, since I don'
 If you have a legitimate interest in obtaining this data, please do not hesitate to write me an e-mail or contact me via one of the several other ways stated on the [home page](/).
 
 E-Mail: impressum@vollkorntomate.de\
-PGP Fingerprint: `8003 4009 F358 2127 17F1 9AB3 8738 4A83 6B85 D103`[^pgpdownload]
+PGP Fingerprint: `A165 96DC 1051 212F 97EC 8280 DB0F 579A 2731 347A`[^pgpdownload]
 
 In general, I favor the obligation to have an imprint for business-like websites, meaning a natural or legal person earning money with or through this website. However, the definition for "business-like" is very fluent in German law, and the imprint obligation already applies when contents are "usually delivered against payment". I am not earning any money with this website – and I don't have any intention in doing so.
 
-[^pgpdownload]: Download public key from [this server](/files/pubkey.asc) or [keys.opengpg.org](https://keys.openpgp.org/vks/v1/by-fingerprint/80034009F358212717F19AB387384A836B85D103)
+[^pgpdownload]: Download public key from [this server](/files/gpg-pubkey-impressum.asc) or [keys.opengpg.org](https://keys.openpgp.org/vks/v1/by-fingerprint/A16596DC1051212F97EC8280DB0F579A2731347A)
