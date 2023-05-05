@@ -10,8 +10,7 @@ languages:
   en:
     languageName: "EN"
     weight: 1
-    info: "Student & Software Developer"
-    description: "vollkorntomate - Student & Software Developer"
+    description: "vollkorntomate"
     menu:
       main:
         # - name: "Blog"
@@ -29,8 +28,7 @@ languages:
   de:
     languageName: "DE"
     weight: 2
-    info: "Student & Softwareentwickler"
-    description: "vollkorntomate - Student & Softwareentwickler"
+    description: "vollkorntomate"
     menu:
       main:
         # - name: "Blog"
