@@ -25,10 +25,10 @@ languages:
           weight: -90
           identifier: "projects"
           url: "/projects/"
-        # - name: "CTF Writeups"
-        #   weight: -80
-        #   identifier: "ctf-writeups"
-        #   url: "/ctf-writeups/"
+        - name: "CTF Writeups"
+          weight: -80
+          identifier: "ctf-writeups"
+          url: "/ctf-writeups/"
   de:
     languageName: "DE"
     weight: 2
@@ -47,15 +47,19 @@ languages:
           weight: -90
           identifier: "projects"
           url: "/projects/"
-        # - name: "CTF Writeups"
-        #   weight: -80
-        #   identifier: "ctf-writeups"
-        #   url: "../ctf-writeups/"
+        - name: "CTF Writeups"
+          weight: -80
+          identifier: "ctf-writeups"
+          url: "../ctf-writeups/"
 
 taxonomies:
   category: "categories"
   series: "series"
   tag: "tags"
+
+markup:
+  highlight:
+    style: "vulcan"
 
 params:
   author: "vollkorntomate"
