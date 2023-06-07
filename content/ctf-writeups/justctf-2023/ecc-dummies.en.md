@@ -19,7 +19,7 @@ We are given a ZIP file containing a Python program (consisting of two files) an
 
 Let's first connect to the netcat listener to see what we're up against:
 
-```
+```text
 Hello there!
 Would you like to play a little game?
 I have written 5 values (yes, no) on cards. I am curious if you are able to guess which values they are.
@@ -48,7 +48,7 @@ print(cards)
 ```
 
 This is the answer we get for this question:
-```
+```text
 0.Question: print(cards)
 [False, True, True, True, True]
 Question resolves to: True
@@ -56,7 +56,7 @@ Question resolves to: True
 
 That looks a lot like our `cards` variable that we need to get the flag! All other 7 questions can simply be skipped with an empty input. Then we just need to convert each `True` to a `1` and each `False` to a `0`, provide it as our response and voilà: there is our flag!
 
-```
+```text
 Your response: 0 1 1 1 1 
 Great work!
 This is yours flag:  justCTF{S0me7ime$_L0Gic_1s_n0T_B1n4ry_0101}
