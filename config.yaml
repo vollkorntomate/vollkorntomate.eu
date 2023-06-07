@@ -85,6 +85,8 @@ params:
   colorScheme: "auto"
   hidecolorschemetoggle: true
 
+  customCSS: ["custom.css", "syntax-highlight.css"]
+
   favicon_16: "images/favicon-16x16.png"
   favicon_32: "images/favicon-32x32.png"
 
