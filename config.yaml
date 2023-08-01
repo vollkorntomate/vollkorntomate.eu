@@ -100,4 +100,4 @@ params:
     - name: "Matrix"
       icon: "fa fa-matrix-org fa-2x"
       weight: 5
-      url: "https://matrix.to/#/@t:vollkorntomate.de"
+      url: "https://matrix.to/#/@thomas:vollkorntomate.de"
