@@ -1,3 +1,4 @@
 [submodule "themes/coder"]
 	path = themes/coder
 	url = https://github.com/vollkorntomate/hugo-coder.git
+	branch = vollkorntomate
