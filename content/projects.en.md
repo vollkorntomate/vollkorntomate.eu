@@ -1,6 +1,5 @@
 ---
 title: "Projects"
-date: 2022-10-10
 draft: false
 description: "An overview of the projects I am/was working on"
 ---
@@ -17,7 +16,7 @@ An API client for Komoot's Photon API written in and for Dart/Flutter. \
 
 ---
 
-# Professional & Education
+## Professional & Education
 
 - **since December 2023** \
 Student Assistant with the [Secure Mobile Networking Lab (SEEMOO)](https://www.seemoo.tu-darmstadt.de/)

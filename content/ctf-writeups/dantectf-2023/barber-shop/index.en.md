@@ -7,10 +7,12 @@ type: posts
 series: ["DanteCTF 2023"]
 categories: ["DanteCTF 2023"]
 tags: ["web", "easy"]
+ShowReadingTime: true
+author: "vollkorntomate"
 ---
 ---
 
-# Exploration
+## Exploration
 
 Dante's Barber Shop website greets us with a short text and some pictures about their work. The login button in the upper right also immediately catches attention.
 
@@ -24,7 +26,7 @@ Opening the developer console and having a look at the site's source doesn't rev
 
 As it turned out, a picture with this name exists on the web server, but it doesn't portray anything related to hair or beard. Instead, it shows a username (`barber`) and password for a backup user. Needless to say, these credentials work on the login form – we have successfully logged in!
 
-# Road to the flag
+## Road to the flag
 
 But not so fast! There is no flag yet, only a seemingly boring list of customers and their phone numbers -- and a search field to filter the list.
 

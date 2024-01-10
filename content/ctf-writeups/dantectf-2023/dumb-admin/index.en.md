@@ -7,6 +7,8 @@ type: posts
 series: ["DanteCTF 2023"]
 categories: ["DanteCTF 2023"]
 tags: ["web", "easy"]
+ShowReadingTime: true
+author: "vollkorntomate"
 ---
 ---
 
@@ -18,7 +20,7 @@ Let's see what we are tasked with here.
 
 ![A simple login form](login-form.png)
 
-# Login OR 1=1
+## Login OR 1=1
 
 The Admin dashboard only consists of a simple login form, there's nothing more to discover here. As always, we started with the basics and the credentials `admin:admin`, but the only thing we get is an error telling us "Invalid password format"[^1]. Other default credentials don't seem to work either, so let's see if there is any luck with SQL injection.
 
@@ -48,7 +50,7 @@ The leading single quote character (`'`) closes the quotes of the username strin
 
 ---
 
-# File upload
+## File upload
 
 ![The dashboard with the ability to upload JPEG files](dashboard.png)
 
@@ -74,7 +76,7 @@ After some failed attempts, we found the correct number of directories to go up 
 
 However, we can't simply print out the contents of the file, since the only thing that the page does in order to render the image is to put the filename in the `src` attribute of an `img` tag and let the browser interpret it. Manually accessing the path, for example, via `curl` doesn't seem to work. So, we have to find another way.
 
-# Connecting the dots
+## Connecting the dots
 
 Until now, we know a few things:
 1. The upload only accepts images that are valid JPEG files
@@ -87,7 +89,7 @@ This means that we would somehow need to upload a file that looks like a valid J
 
 To answer this question, I took the (valid) `img.jpg` file from earlier and simply renamed it to `img.jpg.txt`, uploaded it and – success!
 
-# The magic of JPEG and PHP
+## The magic of JPEG and PHP
 
 It's time to craft a script that finally outputs our flag. The PHP part of it is rather straightforward:
 ```php

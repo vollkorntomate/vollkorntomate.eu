@@ -2,16 +2,29 @@ baseURL: "https://vollkorntomate.de/"
 title: "vollkorntomate"
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
-theme: "coder"
+theme: "PaperMod"
+paginate: 10
 
-enableGitInfo: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 languages:
   en:
     languageName: "EN"
     weight: 1
-    params:
-      description: "vollkorntomate"
+    taxonomies:
+      category: "categories"
+      tag: "tags"
+      series: "series"
     menu:
       main:
         # - name: "Blog"
@@ -19,89 +32,211 @@ languages:
         #   identifier: "blog"
         #   url: "/blog/"
         - name: "About me"
-          weight: -100
+          weight: 10
           identifier: "about"
           url: "/about/"
         - name: "Projects"
-          weight: -90
+          weight: 20
           identifier: "projects"
           url: "/projects/"
         - name: "CTF Writeups"
-          weight: -80
+          weight: 30
           identifier: "ctf-writeups"
           url: "/ctf-writeups/"
-  de:
-    languageName: "DE"
-    weight: 2
-    params:
-      description: "vollkorntomate"
-    menu:
-      main:
-        # - name: "Blog"
-        #   weight: -110
-        #   identifier: "blog"
-        #   url: "/blog/"
-        - name: "Über mich"
-          weight: -100
-          identifier: "about"
-          url: "/about/"
-        - name: "Projekte"
-          weight: -90
-          identifier: "projects"
-          url: "/projects/"
-        - name: "CTF Writeups"
-          weight: -80
-          identifier: "ctf-writeups"
-          url: "../ctf-writeups/"
-
-taxonomies:
-  category: "categories"
-  series: "series"
-  tag: "tags"
-
-markup:
-  highlight:
-    style: "vulcan"
-    noClasses: false
-    tabWidth: 4
+  # de:
+  #   languageName: "DE"
+  #   weight: 1
+  #   taxonomies:
+  #     category: "categories"
+  #     tag: "tags"
+  #     series: "series"
+  #   menu:
+  #     main:
+  #         # - name: "Blog"
+  #         #   weight: -110
+  #         #   identifier: "blog"
+  #         #   url: "/blog/"
+  #         - name: "Über mich"
+  #           weight: 10
+  #           identifier: "about"
+  #           url: "/about/"
+  #         - name: "Projekte"
+  #           weight: 20
+  #           identifier: "projects"
+  #           url: "/projects/"
+  #         - name: "CTF Writeups"
+  #           weight: 30
+  #           identifier: "ctf-writeups"
+  #           url: "../ctf-writeups/"
 
 params:
-  author: "vollkorntomate"
-  avatarurl: "images/vollkorntomate.jpg"
-  images: ["images/vollkorntomate-small.jpeg",]
+  description: "vollkorntomate"
+  images: ["images/vollkorntomate-small.jpeg"]
 
-  colorScheme: "auto"
-  hidecolorschemetoggle: true
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  displayFullLangName: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: false
 
-  customCSS: ["custom.css", "syntax-highlight.css"]
+  profileMode:
+    enabled: true
+    title: "vollkorntomate"
+    imageUrl: "images/vollkorntomate.jpg"
+    imageTitle: "Profile image"
 
-  favicon_16: "images/favicon-16x16.png"
-  favicon_32: "images/favicon-32x32.png"
-
-  commit: "https://codeberg.org/vollkorntomate/vollkorntomate.de/commit"
-
-  social:
-    - name: "GitHub"
-      icon: "fa fa-github fa-2x"
-      weight: 1
+  socialIcons:
+    - name: "github"
+      title: "GitHub"
       url: "https://github.com/vollkorntomate/"
-    - name: "Codeberg"
-      icon: "fa fa-codeberg fa-2x"
-      weight: 2
+    - name: "codeberg"
+      title: "Codeberg"
       url: "https://codeberg.org/vollkorntomate/"
-    - name: "StackOverflow"
-      icon: "fa fa-stack-overflow fa-2x"
-      weight: 3
+    - name: "stackoverflow"
+      title: "StackOverflow"
       url: "https://stackoverflow.com/users/10295689/vollkorntomate"
-    - name: "PGP Public Key (Fingerprint: 0x36FB1BADEB61C4469C375E913289CE3A5D057650)"
-      icon: "fa fa-gnupg fa-2x"
-      weight: 4
+    - name: "pgpkey"
+      title: "PGP Public Key (Fingerprint: 0x36FB1BADEB61C4469C375E913289CE3A5D057650)"
       url: "files/gpg-pubkey-vollkorntomate.asc"
-    - name: "Mastodon"
-      icon: "fa fa-mastodon fa-2x"
-      weight: 5
+    - name: "mastodon"
+      title: "Mastodon"
       url: "https://infosec.exchange/@vollkorntomate"
-    - name: "Matrix"
-      icon: "fa fa-matrix-org fa-2x"
-      weight: 6
+    - name: "matrix"
+      title: "Matrix"
       url: "https://matrix.to/#/@thomas:vollkorntomate.de"
+
+  label:
+    text: "vollkorntomate"
+    icon: "images/vollkorntomate.jpg"
+    iconHeight: 25
+
+  assets:
+    disableHLJS: true
+    favicon: "images/favicon-32x32.png"
+    favicon16x16: "images/favicon-16x16.png"
+    favicon32x32: "images/favicon-32x32.png"
+    apple_touch_icon: "images/apple-touch-icon.png"
+    safari_pinned_tab: "images/apple-touch-icon.png"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+
+
+# baseURL: "https://vollkorntomate.de/"
+# title: "vollkorntomate"
+# defaultContentLanguage: "en"
+# defaultContentLanguageInSubdir: false
+# theme: "coder"
+
+# enableGitInfo: true
+
+# languages:
+#   en:
+#     languageName: "EN"
+#     weight: 1
+#     params:
+#       description: "vollkorntomate"
+#     menu:
+#       main:
+#         # - name: "Blog"
+#         #   weight: -110
+#         #   identifier: "blog"
+#         #   url: "/blog/"
+#         - name: "About me"
+#           weight: -100
+#           identifier: "about"
+#           url: "/about/"
+#         - name: "Projects"
+#           weight: -90
+#           identifier: "projects"
+#           url: "/projects/"
+#         - name: "CTF Writeups"
+#           weight: -80
+#           identifier: "ctf-writeups"
+#           url: "/ctf-writeups/"
+#   de:
+#     languageName: "DE"
+#     weight: 2
+#     params:
+#       description: "vollkorntomate"
+#     menu:
+#       main:
+#         # - name: "Blog"
+#         #   weight: -110
+#         #   identifier: "blog"
+#         #   url: "/blog/"
+#         - name: "Über mich"
+#           weight: -100
+#           identifier: "about"
+#           url: "/about/"
+#         - name: "Projekte"
+#           weight: -90
+#           identifier: "projects"
+#           url: "/projects/"
+#         - name: "CTF Writeups"
+#           weight: -80
+#           identifier: "ctf-writeups"
+#           url: "../ctf-writeups/"
+
+# taxonomies:
+#   category: "categories"
+#   series: "series"
+#   tag: "tags"
+
+# markup:
+#   highlight:
+#     style: "vulcan"
+#     noClasses: false
+#     tabWidth: 4
+
+# params:
+#   author: "vollkorntomate"
+#   avatarurl: "images/vollkorntomate.jpg"
+#   images: ["images/vollkorntomate-small.jpeg",]
+
+#   colorScheme: "auto"
+#   hidecolorschemetoggle: true
+
+#   customCSS: ["custom.css", "syntax-highlight.css"]
+
+#   favicon_16: "images/favicon-16x16.png"
+#   favicon_32: "images/favicon-32x32.png"
+
+#   commit: "https://codeberg.org/vollkorntomate/vollkorntomate.de/commit"
+
+#   social:
+#     - name: "GitHub"
+#       icon: "fa fa-github fa-2x"
+#       weight: 1
+#       url: "https://github.com/vollkorntomate/"
+#     - name: "Codeberg"
+#       icon: "fa fa-codeberg fa-2x"
+#       weight: 2
+#       url: "https://codeberg.org/vollkorntomate/"
+#     - name: "StackOverflow"
+#       icon: "fa fa-stack-overflow fa-2x"
+#       weight: 3
+#       url: "https://stackoverflow.com/users/10295689/vollkorntomate"
+#     - name: "PGP Public Key (Fingerprint: 0x36FB1BADEB61C4469C375E913289CE3A5D057650)"
+#       icon: "fa fa-gnupg fa-2x"
+#       weight: 4
+#       url: "files/gpg-pubkey-vollkorntomate.asc"
+#     - name: "Mastodon"
+#       icon: "fa fa-mastodon fa-2x"
+#       weight: 5
+#       url: "https://infosec.exchange/@vollkorntomate"
+#     - name: "Matrix"
+#       icon: "fa fa-matrix-org fa-2x"
+#       weight: 6
+#       url: "https://matrix.to/#/@thomas:vollkorntomate.de" 

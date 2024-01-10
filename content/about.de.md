@@ -1,8 +1,7 @@
 ---
 title: "Über mich"
-date: 2022-10-11
 draft: false
-description: 'Hallo! Ich bin Thomas. – vollkorntomate'
+# description: 'Hallo! Ich bin Thomas. – vollkorntomate'
 ---
 
 ---

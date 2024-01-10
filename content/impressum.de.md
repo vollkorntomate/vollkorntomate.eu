@@ -1,6 +1,5 @@
 ---
 title: "Impressum"
-date: 2022-07-08T17:12:52+02:00
 draft: false
 description: "Impressum"
 ---

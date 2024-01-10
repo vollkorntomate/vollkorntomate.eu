@@ -7,12 +7,14 @@ type: posts
 series: ["justCTF 2023"]
 categories: ["justCTF 2023"]
 tags: ["misc", "easy"]
+ShowReadingTime: true
+author: "vollkorntomate"
 ---
 ---
 
 This is one of the challenges which have a simple solution, that is just tricky to find. Let's explore.
 
-# Exploring the task
+## Exploring the task
 
 We are given a ZIP file containing a Python program (consisting of two files) and a netcat listener that executes the program on the CTF's infrastructure. The task description states:
 > Sometimes you have to force logic to do what you want it to do
@@ -32,7 +34,7 @@ Whatever we "ask" it, its answer is always either `True` or `False`. After all 8
 
 Trying out different kinds of questions and taking guesses doesn't lead us anywhere, so it's time to look a little deeper into the code.
 
-# Understanding the code
+## Understanding the code
 
 The code in `main.py` is pretty straightforward: it handles all the input and output, and in the end compares the user-provided *cards* with its generated and outputs the flag if those two match. Handling the 8 questions gets a bit more complex.
 
@@ -40,7 +42,7 @@ Each question is given to the `evaluate` function in `sandbox.py`, which makes u
 
 Before going too much into details about the code, we wondered how exactly the randomly generated cards influence the answers to our questions. The variable `cards` is passed into `evaulate` alongside the questions, but is never used afterwards – only its length is relevant (which is always 5 in this example). Thus, the answers to our questions are in no way helpful to find out the arrangement of zeros and ones that we need to get the flag.
 
-# One question to rule them all
+## One question to rule them all
 
 So, we now know that no matter we ask, we can only guess what the contents of the cards are. However, our input is treated as regular Python code, compiled and evaluated (i.e. executed). This is nothing less than arbitrary code execution! So, why not try out the following Python code as the first question:
 ```py

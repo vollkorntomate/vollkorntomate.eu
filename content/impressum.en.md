@@ -1,6 +1,5 @@
 ---
 title: "Imprint"
-date: 2022-07-09T00:41:20+02:00
 draft: false
 description: "Imprint"
 ---
