@@ -19,6 +19,9 @@ An API client for Komoot's Photon API written in and for Dart/Flutter. \
 
 # Professional & Education
 
+- **since December 2023** \
+Student Assistant with the [Secure Mobile Networking Lab (SEEMOO)](https://www.seemoo.tu-darmstadt.de/)
+
 - **July 2022 – September 2022** \
 Internship as a Penetration Tester \
 {{< secondary >}}Python | C | Automotive | CAN | Code Audit{{< /secondary >}}
@@ -29,7 +32,7 @@ Title: Grey-Box Fuzzing Embedded Devices using Feedback from Side-Channel Analys
 {{< secondary >}}Python | C | Embedded | AFL++ | TensorFlow/Keras{{< /secondary >}}
 
 - **April 2021 – July 2021** \
-Practical cource about iOS at TUM \
+Practical cource about iOS development at TUM \
 {{< secondary >}}Swift | iOS | SwiftUI | Combine | GraphQL{{< /secondary >}}
 
 - **April 2021** \

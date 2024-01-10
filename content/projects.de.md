@@ -19,6 +19,9 @@ Ein API client für Komoot's Photon API, geschrieben in und für Dart/Flutter. \
 
 # Beruflich & Ausbildung
 
+- **seit Dezember 2023** \
+Studentische Hilfskraft beim [Secure Mobile Networking Lab (SEEMOO)](https://www.seemoo.tu-darmstadt.de/)
+
 - **Juli 2022 – September 2022** \
 Praktikum als Penetration Tester \
 {{< secondary >}}Python | C | Automotive | CAN | Code Audit{{< /secondary >}}
