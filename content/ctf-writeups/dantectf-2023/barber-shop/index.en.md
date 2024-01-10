@@ -2,7 +2,7 @@
 title: "DanteCTF 2023: Dante Barber Shop"
 date: 2023-06-04
 draft: false
-description: "CTF Writeup of the Dante Barber Shop challenge during DanteCTF 2023"
+# description: "CTF Writeup of the Dante Barber Shop challenge during DanteCTF 2023"
 type: posts
 series: ["DanteCTF 2023"]
 categories: ["DanteCTF 2023"]

@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 draft: false
-description: "Information about data privacy"
+# description: "Information about data privacy"
 ---
 
 ---

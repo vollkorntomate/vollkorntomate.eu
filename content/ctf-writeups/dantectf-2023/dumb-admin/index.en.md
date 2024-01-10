@@ -2,7 +2,7 @@
 title: "DanteCTF 2023: Dumb Admin"
 date: 2023-06-04
 draft: false
-description: "CTF Writeup of the Dumb Admin challenge during DanteCTF 2023"
+# description: "CTF Writeup of the Dumb Admin challenge during DanteCTF 2023"
 type: posts
 series: ["DanteCTF 2023"]
 categories: ["DanteCTF 2023"]

@@ -2,7 +2,7 @@
 title: "justCTF 2023: ECC for Dummies"
 date: 2023-06-04
 draft: false
-description: "CTF Writeup of the ECC for Dummies challenge during justCTF 2023"
+# description: "CTF Writeup of the ECC for Dummies challenge during justCTF 2023"
 type: posts
 series: ["justCTF 2023"]
 categories: ["justCTF 2023"]
