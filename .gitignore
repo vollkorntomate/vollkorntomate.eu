@@ -3,3 +3,6 @@
 
 # macOS
 .DS_Store
+
+# temporarily ignore blog directory
+blog/
