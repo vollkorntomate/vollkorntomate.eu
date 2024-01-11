@@ -43,31 +43,32 @@ languages:
           weight: 30
           identifier: "ctf-writeups"
           url: "/ctf-writeups/"
-  # de:
-  #   languageName: "DE"
-  #   weight: 1
-  #   taxonomies:
-  #     category: "categories"
-  #     tag: "tags"
-  #     series: "series"
-  #   menu:
-  #     main:
-  #         # - name: "Blog"
-  #         #   weight: -110
-  #         #   identifier: "blog"
-  #         #   url: "/blog/"
-  #         - name: "Über mich"
-  #           weight: 10
-  #           identifier: "about"
-  #           url: "/about/"
-  #         - name: "Projekte"
-  #           weight: 20
-  #           identifier: "projects"
-  #           url: "/projects/"
-  #         - name: "CTF Writeups"
-  #           weight: 30
-  #           identifier: "ctf-writeups"
-  #           url: "../ctf-writeups/"
+  de:
+    disabled: true
+    languageName: "DE"
+    weight: 1
+    taxonomies:
+      category: "categories"
+      tag: "tags"
+      series: "series"
+    menu:
+      main:
+          # - name: "Blog"
+          #   weight: -110
+          #   identifier: "blog"
+          #   url: "/blog/"
+          - name: "Über mich"
+            weight: 10
+            identifier: "about"
+            url: "/about/"
+          - name: "Projekte"
+            weight: 20
+            identifier: "projects"
+            url: "/projects/"
+          - name: "CTF Writeups"
+            weight: 30
+            identifier: "ctf-writeups"
+            url: "../ctf-writeups/"
 
 params:
   description: "vollkorntomate"
@@ -102,6 +103,21 @@ params:
     - name: "stackoverflow"
       title: "StackOverflow"
       url: "https://stackoverflow.com/users/10295689/vollkorntomate"
+    - name: "ctftime"
+      title: "CTFTime"
+      url: "https://ctftime.org/user/150460"
+    # - name: "hackerone"
+    #   title: "hackerone"
+    #   url: "https://hackerone.com/vollkorntomate?type=user"
+    # - name: "bugcrowd"
+    #   title: "Bugcrowd"
+    #   url: "https://bugcrowd.com/vollkorntomate"
+    # - name: "tryhackme"
+    #   title: "TryHackMe"
+    #   url: "https://tryhackme.com/vollkorntomate"
+    - name: "hackthebox"
+      title: "Hack The Box"
+      url: "https://app.hackthebox.com/users/836509"
     - name: "pgpkey"
       title: "PGP Public Key (Fingerprint: 0x36FB1BADEB61C4469C375E913289CE3A5D057650)"
       url: "files/gpg-pubkey-vollkorntomate.asc"
