@@ -8,8 +8,14 @@ draft: false
 
 ## Hi! I am Thomas. 👋
 
-I am 23 years old and live in Darmstadt and Munich, Germany. I did a bachelor's degree in informatics at the Technical University of Munich and am currently doing a master's degree in IT security at the Technical University of Darmstadt. Through university, internships and smaller side-projects I came to gain some experience in software development, mostly in Java, Swift, C# and Python. Recently, I fell in love with Rust and try to use it more often now. That's why most of my more recent projects have a strong focus on Rust. But still, I love making apps for iOS as well as doing security research and CTFs.
+I am a student, programmer and (wannabe) ethical hacker.
 
-I love open-source software, open data and the community behind it. I am a defender of privacy and digital rights for an open internet. [Make public data available, protect private data.](https://www.ccc.de/en/hackerethics)
+Through learning programming in high school, I discovered a passion and started studying informatics at the Technical University of Munich. Along the way, I did an internship and a student job at a software engineering firm, through which I got to experience software engineering from a professional side. During an exchange semester in Norway, I came in contact with the field of cybersecurity, which sparked a great interest in me. Thus, after I had finished by bachelor's degree in Munich, I moved to Darmstadt and began pursuing a master's degree in cybersecurity at the Technical University of Darmstadt, which is currently ongoing.
 
-Besides technology, I like learning languages. I speak German natively, English fluently and I consider myself conversational in French and Norwegian. I can understand and speak at least basics in Spanish, Dutch, Arabic and Ukrainian.
+While programming remains a passion fo mine, I am increasingly focused on working in cybersecurity, especially in ethical hacking and penetration testing. I love doing CTFs and other hacking challenges for fun and have just recently begun spending some time for bug hunting.
+
+I am also interested in the political and societal aspects of the digital world. I am a supporter of open-source software and open data and I advocate making more software and data openly and freely accessible, while at the same time protecting private data.[^hackerethics]
+
+Besides technology, I really like learning languages. I am native or near-native in German and English and consider myself conversational in French and Norwegian. To a lesser extent I can understand and speak some Dutch, Ukrainian and Spanish and am at the moment (not very actively) learning Italian, Polish and Arabic.
+
+[^hackerethics]: See the [CCC's hacker ethics.](https://www.ccc.de/en/hackerethics)

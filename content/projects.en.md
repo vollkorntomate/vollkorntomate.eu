@@ -39,7 +39,7 @@ Science Hack (Hackathon) by TUM Junge Akademie \
 {{< secondary >}}Python | Django{{< /secondary >}}
 
 - **18 Months in 2019 to 2021** \
-Intern and working student at a software engineering company \
+Intern and student employee at a software engineering company \
 {{< secondary >}}C# | Microsoft Azure{{< /secondary >}}
 
 ---
