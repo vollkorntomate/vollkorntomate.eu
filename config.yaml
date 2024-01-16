@@ -27,10 +27,6 @@ languages:
       series: "series"
     menu:
       main:
-        # - name: "Blog"
-        #   weight: -110
-        #   identifier: "blog"
-        #   url: "/blog/"
         - name: "About me"
           weight: 10
           identifier: "about"
@@ -39,8 +35,12 @@ languages:
           weight: 20
           identifier: "projects"
           url: "/projects/"
-        - name: "CTF Writeups"
+        - name: "Blog"
           weight: 30
+          identifier: "blog"
+          url: "/blog/"
+        - name: "CTF Writeups"
+          weight: 40
           identifier: "ctf-writeups"
           url: "/ctf-writeups/"
   de:
@@ -53,10 +53,6 @@ languages:
       series: "series"
     menu:
       main:
-          # - name: "Blog"
-          #   weight: -110
-          #   identifier: "blog"
-          #   url: "/blog/"
           - name: "Über mich"
             weight: 10
             identifier: "about"
@@ -65,13 +61,17 @@ languages:
             weight: 20
             identifier: "projects"
             url: "/projects/"
-          - name: "CTF Writeups"
+          - name: "Blog"
             weight: 30
+            identifier: "blog"
+            url: "/blog/"
+          - name: "CTF Writeups"
+            weight: 40
             identifier: "ctf-writeups"
             url: "../ctf-writeups/"
 
 params:
-  description: "vollkorntomate"
+  description: "vollkorntomate – Student, Programmer, IT Security, Open Source"
   images: ["images/vollkorntomate-small.jpeg"]
 
   defaultTheme: auto

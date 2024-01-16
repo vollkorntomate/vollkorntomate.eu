@@ -5,4 +5,6 @@
 .DS_Store
 
 # temporarily ignore blog directory
-blog/
+content/blog/*.*
+!content/blog/_index.*.md
+!content/blog/cve-*.md
