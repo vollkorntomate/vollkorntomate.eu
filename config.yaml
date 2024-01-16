@@ -43,32 +43,6 @@ languages:
           weight: 40
           identifier: "ctf-writeups"
           url: "/ctf-writeups/"
-  de:
-    disabled: true
-    languageName: "DE"
-    weight: 1
-    taxonomies:
-      category: "categories"
-      tag: "tags"
-      series: "series"
-    menu:
-      main:
-          - name: "Über mich"
-            weight: 10
-            identifier: "about"
-            url: "/about/"
-          - name: "Projekte"
-            weight: 20
-            identifier: "projects"
-            url: "/projects/"
-          - name: "Blog"
-            weight: 30
-            identifier: "blog"
-            url: "/blog/"
-          - name: "CTF Writeups"
-            weight: 40
-            identifier: "ctf-writeups"
-            url: "../ctf-writeups/"
 
 params:
   description: "vollkorntomate – Student, Programmer, IT Security, Open Source"
