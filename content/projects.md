@@ -44,4 +44,10 @@ Intern and student employee at a software engineering company \
 
 ---
 
-Further (minor) contributions can be found on my [GitHub profile](https://github.com/vollkorntomate).
+## My CVEs
+
+- [CVE-2024-0709](https://www.cve.org/CVERecord?id=CVE-2024-0709): Unauthenticated SQL Injection in WordPress Plugin "Cryptocurrency Widgets – Price Ticker & Coins List" <= 2.6.5
+
+---
+
+Make sure to check my [GitHub profile](https://github.com/vollkorntomate) as well.
