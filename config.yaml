@@ -35,10 +35,10 @@ languages:
           weight: 20
           identifier: "projects"
           url: "/projects/"
-        - name: "Blog"
-          weight: 30
-          identifier: "blog"
-          url: "/blog/"
+        # - name: "Blog"
+        #   weight: 30
+        #   identifier: "blog"
+        #   url: "/blog/"
         - name: "CTF Writeups"
           weight: 40
           identifier: "ctf-writeups"

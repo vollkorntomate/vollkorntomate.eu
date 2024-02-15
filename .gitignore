@@ -6,5 +6,5 @@
 
 # temporarily ignore blog directory
 content/blog/*.*
-!content/blog/_index.*.md
-!content/blog/cve-*.md
+# !content/blog/_index.*.md
+# !content/blog/cve-*.md
