@@ -8,17 +8,17 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.6.0
+        uses: peaceiris/actions-hugo@v3.0.0
         with:
           hugo-version: 'latest'
           extended: true
@@ -33,7 +33,7 @@ jobs:
           known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
           
       - name: Adding Known Hosts
-        run: ssh-keyscan -H ${{ secrets.VKTDE_SSH_HOST }} >> ~/.ssh/known_hosts
+        run: ssh-keyscan -p ${{ secrets.VKTDE_SSH_PORT }} -H ${{ secrets.VKTDE_SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -avz --delete ./public/ ${{ secrets.VKTDE_SSH_USER }}@${{ secrets.VKTDE_SSH_HOST }}:/home/vollkorntomate/vollkorntomate_de/
+        run: rsync -avz -e 'ssh -p ${{ secrets.VKTDE_SSH_PORT }}' --delete ./public/ ${{ secrets.VKTDE_SSH_USER }}@${{ secrets.VKTDE_SSH_HOST }}:/home/vollkorntomate/vollkorntomate_de/
