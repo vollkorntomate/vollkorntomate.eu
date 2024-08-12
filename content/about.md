@@ -16,6 +16,6 @@ While programming remains a passion fo mine, I am increasingly focused on workin
 
 I am also interested in the political and societal aspects of the digital world. I am a supporter of open-source software and open data and I advocate making more software and data openly and freely accessible, while at the same time protecting private data.[^hackerethics]
 
-Besides technology, I really like learning languages. I am native or near-native in German and English and consider myself conversational in French and Norwegian. To a lesser extent I can understand and speak some Dutch, Ukrainian and Spanish and am at the moment (not very actively) learning Italian, Polish and Arabic.
+Besides technology, I really like learning languages. I am native or near-native in German and English and consider myself conversational in French and Norwegian. To a lesser extent I can understand and speak some Dutch, Ukrainian and Spanish and am at the moment (not very actively) learning Italian and Icelandic (and started with Polish and Arabic...).
 
 [^hackerethics]: See the [CCC's hacker ethics.](https://www.ccc.de/en/hackerethics)
