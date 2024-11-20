@@ -18,8 +18,12 @@ An API client for Komoot's Photon API written in and for Dart/Flutter. \
 
 ## Professional & Education
 
-- **since December 2023** \
+- **since November 2024**  
+Master's Thesis at SEEMOO
+
+- **December 2023 - September 2024** \
 Student Assistant with the [Secure Mobile Networking Lab (SEEMOO)](https://www.seemoo.tu-darmstadt.de/)
+{{< secondary >}}Dart | Flutter | Android{{< /secondary >}}
 
 - **July 2022 – September 2022** \
 Internship as a Penetration Tester \

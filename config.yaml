@@ -45,7 +45,7 @@ languages:
           url: "/ctf-writeups/"
 
 params:
-  description: "vollkorntomate – Student, Programmer, IT Security, Open Source"
+  description: "vollkorntomate – Student, Programmer, Security Researcher, Open Source Advocate"
   images: ["images/vollkorntomate-small.jpeg"]
 
   defaultTheme: auto
