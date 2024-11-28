@@ -48,7 +48,13 @@ Intern and student employee at a software engineering company \
 
 ---
 
-## My CVEs
+## Publications
+
+- F. Putz, S. Haesler, T. Völkl, M. Gehring, N. Rollshausen, und M. Hollick, **PairSonic: Helping Groups Securely Exchange Contact Information**, in *Companion of the 2024 Computer-Supported Cooperative Work and Social Computing (CSCW Companion '24)*, 2024. DOI: [https://doi.org/10.1145/3678884.3681818](https://doi.org/10.1145/3678884.3681818).
+
+---
+
+## CVEs
 
 - [CVE-2024-0709](https://www.cve.org/CVERecord?id=CVE-2024-0709): Unauthenticated SQL Injection in WordPress Plugin "Cryptocurrency Widgets – Price Ticker & Coins List" <= 2.6.5
 
