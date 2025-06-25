@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 draft: false
-description: "An overview of the projects I am/was working on"
+description: "An overview of the projects I am or was working on"
 ---
 
 ---
@@ -18,10 +18,12 @@ An API client for Komoot's Photon API written in and for Dart/Flutter. \
 
 ## Professional & Education
 
-- **since November 2024**  
-Master's Thesis at SEEMOO
+- **November 2024 – May 2025**  
+Master's Thesis at SEEMOO \
+Title: The Example for AI privacy? A Security and Privacy Analysis of Apple Intelligence
+{{< secondary >}}iOS | macOS | Frida {{< /secondary >}}
 
-- **December 2023 - September 2024** \
+- **December 2023 – September 2024** \
 Student Assistant with the [Secure Mobile Networking Lab (SEEMOO)](https://www.seemoo.tu-darmstadt.de/)
 {{< secondary >}}Dart | Flutter | Android{{< /secondary >}}
 

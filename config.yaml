@@ -46,7 +46,8 @@ languages:
           url: "/ctf-writeups/"
 
 params:
-  description: "vollkorntomate – Student, Programmer, Security Researcher, Open Source Advocate"
+  env: production
+  description: "vollkorntomate – Security Researcher, Programmer, Open Source Advocate"
   images: ["images/vollkorntomate-small.jpeg"]
 
   defaultTheme: auto
@@ -65,6 +66,7 @@ params:
   profileMode:
     enabled: true
     title: "vollkorntomate"
+    subtitle: "Security Researcher, Programmer, Open Source Advocate"
     imageUrl: "images/vollkorntomate.jpg"
     imageTitle: "Profile image"
 
@@ -81,9 +83,9 @@ params:
     - name: "orcid"
       title: "ORCiD: 0009-0004-1051-1549"
       url: "https://orcid.org/0009-0004-1051-1549"
-    - name: "ctftime"
-      title: "CTFTime"
-      url: "https://ctftime.org/user/150460"
+    # - name: "ctftime"
+    #   title: "CTFTime"
+    #   url: "https://ctftime.org/user/150460"
     # - name: "hackerone"
     #   title: "hackerone"
     #   url: "https://hackerone.com/vollkorntomate?type=user"
@@ -105,6 +107,9 @@ params:
     - name: "matrix"
       title: "Matrix"
       url: "https://matrix.to/#/@thomas:vollkorntomate.de"
+
+  social:
+    fediverse_creator: "@vollkorntomate@infosec.exchange"
 
   label:
     text: "vollkorntomate"
