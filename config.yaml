@@ -5,6 +5,7 @@ defaultContentLanguageInSubdir: false
 theme: "PaperMod"
 pagination:
   pagerSize: 10
+copyright: © 2025 [vollkorntomate](https://vollkorntomate.eu) • This work is openly licensed via [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -36,10 +37,10 @@ languages:
           weight: 20
           identifier: "projects"
           url: "/projects/"
-        # - name: "Blog"
-        #   weight: 30
-        #   identifier: "blog"
-        #   url: "/blog/"
+        - name: "Blog"
+          weight: 30
+          identifier: "blog"
+          url: "/blog/"
         - name: "CTF Writeups"
           weight: 40
           identifier: "ctf-writeups"
@@ -130,3 +131,15 @@ markup:
       unsafe: false
   highlight:
     noClasses: false
+    # anchorLineNos: false
+    # codeFences: true
+    # guessSyntax: false
+    # hl_Lines: ""
+    # hl_inline: false
+    # lineAnchors: ""
+    # lineNoStart: 1
+    # lineNos: false
+    # lineNumbersInTable: true
+    # style: monokai
+    # tabWidth: 4
+    # wrapperClass: highlight
