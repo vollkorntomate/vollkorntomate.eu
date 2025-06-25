@@ -32,7 +32,7 @@ We choose the following SQL snippet as the username, together with some arbitrar
 Success! We have logged in without knowing any valid credentials.
 
 ---
-{{< details "How it works" >}}
+{{< details summary="How it works" >}}
 In order to craft a successful SQL injection string, we have to think about how the statement might look in the vulnerable code. In this case, we imagine it to be something like this:
 ```sql
 SELECT * FROM users WHERE username = '$username' AND password = '$password';

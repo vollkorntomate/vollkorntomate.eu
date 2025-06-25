@@ -43,7 +43,7 @@ which didn't work as expected, but fortunately produced this wonderful error mes
 
 
 ---
-{{< details "How it works" >}}
+{{< details summary="How it works" >}}
 
 Internally, the SQL statement to get the customer list most likely looks something like this:
 ```sql
