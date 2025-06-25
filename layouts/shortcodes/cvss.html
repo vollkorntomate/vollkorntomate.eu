@@ -1,0 +1,19 @@
+{{- $cvss := (.Get 0 | float) }}
+
+{{ if gt $cvss 9.0 }}
+<span class="cvss cvss-critical">
+    {{ $cvss }} CRITICAL
+</span>
+{{ else if gt $cvss 7.0 }}
+<span class="cvss cvss-high">
+    {{ $cvss }} HIGH
+</span>
+{{ else if gt $cvss 4.0 }}
+<span class="cvss cvss-medium">
+    {{ $cvss }} MEDIUM
+</span>
+{{ else }}
+<span class="cvss cvss-low">
+    {{ $cvss }} LOW
+</span>
+{{ end }}

@@ -58,8 +58,8 @@ Intern and student employee at a software engineering company \
 
 ## CVEs
 
-- [CVE-2024-0709](https://www.cve.org/CVERecord?id=CVE-2024-0709): Unauthenticated SQL Injection in WordPress Plugin "Cryptocurrency Widgets – Price Ticker & Coins List" <= 2.6.5
-- [CVE-2025-31260](https://www.cve.org/CVERecord?id=CVE-2025-31260): A malicious app was able to access Apple Intelligence reports on macOS. [Fixed in macOS 15.5](https://support.apple.com/122716)
+- [CVE-2024-0709](https://www.cve.org/CVERecord?id=CVE-2024-0709) {{< cvss 9.8 >}}: Unauthenticated SQL Injection in WordPress Plugin "Cryptocurrency Widgets – Price Ticker & Coins List" <= 2.6.5
+- [CVE-2025-31260](https://www.cve.org/CVERecord?id=CVE-2025-31260) {{< cvss 5.5 >}}: A malicious app was able to access Apple Intelligence reports on macOS. [Fixed in macOS 15.5](https://support.apple.com/122716)
 
 ---
 
