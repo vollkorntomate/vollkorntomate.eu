@@ -2,6 +2,8 @@
 title: "Imprint"
 draft: false
 description: "Imprint"
+sitemap:
+    priority: 0.1
 ---
 
 ---

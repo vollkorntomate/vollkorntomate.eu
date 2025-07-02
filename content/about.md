@@ -2,6 +2,8 @@
 title: "About Me"
 draft: false
 # description: 'Hi! I am Thomas. – vollkorntomate'
+sitemap:
+    priority: 0.9
 ---
 
 ---
