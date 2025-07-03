@@ -26,7 +26,7 @@ I am a supporter of open-source software and open data and I advocate making mor
 
 Besides technology, I really like learning languages.
 I am native or near-native in German and English and consider myself conversational in French, Norwegian and Icelandic.
-To a lesser extent I can understand and speak some Dutch, Ukrainian and Spanish.
+To a lesser extent I can understand and speak some Dutch, Ukrainian, Spanish and Italian.
 At the university, I did courses in German Sign Language and Arabic, but not much from them has stuck, unfortunately.
 
 [^hackerethics]: See the [CCC's hacker ethics.](https://www.ccc.de/en/hackerethics)
