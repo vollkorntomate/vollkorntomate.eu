@@ -2,8 +2,6 @@
 title: "Projects"
 draft: false
 description: "An overview of the projects I am or was working on"
-sitemap:
-    priority: 0.6
 ---
 
 ---

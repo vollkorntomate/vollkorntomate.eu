@@ -2,8 +2,6 @@
 title: "Privacy"
 draft: false
 # description: "Information about data privacy"
-sitemap:
-    priority: 0.1
 ---
 
 ---
