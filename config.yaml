@@ -106,9 +106,9 @@ params:
     - name: "mastodon"
       title: "Mastodon"
       url: "https://infosec.exchange/@vollkorntomate"
-    - name: "matrix"
-      title: "Matrix"
-      url: "https://matrix.to/#/@thomas:vollkorntomate.de"
+    # - name: "matrix"
+    #   title: "Matrix"
+    #   url: "https://matrix.to/#/@thomas:vollkorntomate.de"
 
   social:
     fediverse_creator: "@vollkorntomate@infosec.exchange"
